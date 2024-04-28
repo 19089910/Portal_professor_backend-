@@ -1,0 +1,30 @@
+{
+  "name": "jackson---backend-escola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "div": "nodemon",
+    "debug": "nodemon --inspect"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nvm": "^0.0.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "globals": "^15.0.0",
+    "nodemon": "^3.1.0",
+    "sucrase": "^3.35.0"
+  }
+}
