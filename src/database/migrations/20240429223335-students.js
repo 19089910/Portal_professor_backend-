@@ -14,16 +14,26 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      age:{},
-      guardian_name:{        
+      age:{
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
+      guardian_name:{
         type: Sequelize.STRING,
-        allowNull: false,},
+        allowNull: false,
+      },
       gurdian_phone:{
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      address:{},
-      education_level:{},
+      address:{
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      education_level:{
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,
